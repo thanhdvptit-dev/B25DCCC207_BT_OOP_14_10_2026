@@ -1,6 +1,6 @@
 public class Person {
     String name;
-    int birthYear; // int là tối ưu nhất cho năm/tuổi
+    int birthYear; 
     String address;
     String phone;
 
