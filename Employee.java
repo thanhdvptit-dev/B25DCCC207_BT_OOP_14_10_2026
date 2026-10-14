@@ -12,9 +12,9 @@ public class Employee extends Person {
         this.startYear = startYear;
     }
 
-    public long calculateSalary() { // Trả về long
+    public long calculateSalary() { 
         int years = 2026 - startYear;
-        return baseSalary + (200000L * years); // Thêm chữ L để ép kiểu số 200.000 thành long
+        return baseSalary + (200000L * years);
     }
 
     public String getRole() {
