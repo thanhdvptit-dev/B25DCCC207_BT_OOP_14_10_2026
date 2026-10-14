@@ -1,7 +1,7 @@
 public class Employee extends Person {
     String id;
     String department;
-    long baseSalary; // Đổi thành long
+    long baseSalary;
     int startYear;
 
     public Employee(String name, int birthYear, String address, String phone, String id, String department, long baseSalary, int startYear) {
